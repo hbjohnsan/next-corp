@@ -1,8 +1,8 @@
 // app/layout.tsx
 import "./globals.css";
 import type { Metadata } from "next";
-import { Comforter } from "next/font/google";
-const inter = Comforter({ subsets: ["latin"],display: "swap",weight:'400' });//swap 加载字体前使用默认字体
+import { Abel } from "next/font/google";
+const inter = Abel({ subsets: ["latin"],display: "swap",weight:'400' });//swap 加载字体前使用默认字体
 
 
 export const metadata: Metadata = {
