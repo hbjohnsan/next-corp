@@ -14,6 +14,7 @@ export default function Hero(props:IProps) {
       </div>
       <div className="flex justify-center pt-48">
         <h1 className="text-white text-6xl">{props.content}</h1>
+        <p>修改了内容。。。。。。</p>
       </div>
     </div>
   );
